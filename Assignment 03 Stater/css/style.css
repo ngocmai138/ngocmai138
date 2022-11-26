@@ -1,0 +1,402 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #25a0da;
+  --secondary-color: #d6c08d;
+  --borders-color: rgb(230, 219, 219);
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  max-width: 1170px;
+  margin: auto;
+  /* display: block; */
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+  position: relative;
+}
+
+/* Add text inside the banner */
+#banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Build navigation bar */
+#nav-container {
+  overflow: hidden;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--borders-color);
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#nav-container a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-left: 1px solid var(--borders-color);
+}
+
+#nav-container a:first-child {
+  border-left: 0;
+}
+
+/* Add profile picture */
+.profile-picture {
+  position: absolute;
+  transform: translate(0, -30%);
+}
+
+.pf-picture {
+  border: 2px solid white;
+  border-width: 10px;
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* Buid personnal information layout  */
+
+#about .grid {
+  gap: 150px;
+}
+ul.mt-40-info {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.mt-40-info span {
+  font-weight: bold;
+}
+
+.bg-grey h1 {
+  margin-bottom: 30px;
+}
+.contact-icons {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+#personal-info {
+  margin-left: 40px;
+}
+
+#target {
+  margin-left: 100px;
+}
+
+/* Build job information layout */
+
+#job-info .grid {
+  gap: 5px;
+}
+
+.job-info-items {
+  display: grid;
+  border: 1px solid gray;
+  padding: 10px;
+  grid-template-columns: 75% 15%;
+  grid-template-rows: auto auto;
+  min-height: 100px;
+}
+
+.job-info-items h1 {
+  font-size: 30px;
+}
+
+.job-info-items:hover span {
+  display: block;
+}
+
+.job-info-details {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-left: 15px;
+}
+
+.job-content {
+  padding-left: 20px;
+}
+
+.job-name {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.time {
+  font-style: italic;
+}
+.job-number {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.view-less {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: var(--secondary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Interest component */
+.hobbies {
+  justify-self: center;
+  text-align: center;
+  gap: 20px;
+  padding-left: 0;
+}
+
+.hobbies .flex {
+  margin-top: 10px;
+  gap: 20px;
+}
+
+/* A Circle around the icons */
+.hobb-icons {
+  font-size: 20px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  justify-self: center;
+  border: 1px solid var(--primary-color);
+  margin: 0 auto 20px auto;
+}
+
+/* Languages component  */
+.level-high {
+  background: var(--primary-color);
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.level-low {
+  background: #d8e4e9;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* Buid certificates layout */
+#certificate .grid {
+  grid-template-rows: auto 1fr 1fr;
+  position: relative;
+}
+
+.item-name {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.ctfc-name {
+  text-transform: uppercase;
+}
+
+/* Creat vertical border */
+.ctfc-img::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: var(--secondary-color);
+  top: 115px;
+  height: 23%;
+  left: 50%;
+}
+/* Creat horizontal border */
+.ctfc-info::before {
+  content: "";
+  position: absolute;
+  background-color: var(--secondary-color);
+  width: 90%;
+  top: 55%;
+  height: 1px;
+  left: 80px;
+}
+
+.ctfc-info {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.ctfc-img {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.ctfc-img img {
+  width: 200px;
+}
+
+.ctfc-content {
+  padding-left: 20px;
+}
+
+/* Build project layout */
+#project .grid {
+  gap: 20px;
+}
+
+.project-content div {
+  margin-bottom: 20px;
+}
+
+.project-content a {
+  text-decoration: none;
+}
+
+.section-title {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.prj-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.prj-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.prj-summary span {
+  margin-right: 10px;
+}
+
+.prj-year {
+  border: 2px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.time .prj-year {
+  padding: 0 10px;
+}
+
+.prj-details tr {
+  border: 1px solid;
+}
+
+table {
+  border-spacing: 0;
+}
+
+th {
+  width: 30%;
+}
+
+th,
+td {
+  border-top: 1px solid var(--secondary-color);
+  text-align: left;
+  padding: 10px 0;
+}
+
+.td-height {
+  height: 92px;
+}
+
+/* Build footer layout */
+#footer {
+  list-style-type: none;
+  text-align: center;
+}
+
+#footer li {
+  display: inline-block;
+  padding: 20px;
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+.fa {
+  color: var(--primary-color);
+}
+
+.hobb-icons .fa {
+  padding-right: 0;
+}
+
+/* Request email form */
+
+.hidden {
+  display: none;
+}
+
+/* project-charter */
+.project-chapter-grid {
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  background-color: var(--primary-color);
+
+  padding: 10px;
+  gap: 10px;
+}
+
+.project-chapter-grid > div {
+  background-color: #dce9f0;
+}
+
+.timeline {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.goals .grid {
+  grid-template-columns: 10% 90%;
+}
+
+.scopes .grid {
+  gap: 10px;
+  padding: 10px;
+}
+
+.team .grid,
+.timeline .grid,
+.primary .grid {
+  grid-template-columns: 20% 80%;
+}
