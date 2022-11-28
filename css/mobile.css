@@ -1,0 +1,145 @@
+@media (max-width: 500px) {
+  /* body {
+    display: none;
+  } */
+
+  /* Adjust navbar */
+  #nav-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+  }
+
+  /* personnal information layout */
+  #about .grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  #personal-info {
+    margin-left: 0;
+  }
+  #target {
+    margin-left: 0;
+  }
+
+  .bg-grey h1 {
+    margin-bottom: 15px;
+  }
+
+  /* job information layout */
+  #job-info .grid {
+    grid-template-columns: 1fr;
+  }
+
+  #hobbies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+  }
+
+  /*certificates layout */
+  #certificate .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ctfc-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+
+  .ctfc-img img {
+    width: 300px;
+    padding-bottom: 10px;
+  }
+
+  .ctfc-content {
+    padding: 10px;
+  }
+
+  /* Clear vertical border */
+  .ctfc-img::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    background-color: #d6c08d;
+    top: 115px;
+    height: 23%;
+    left: 50%;
+  }
+  /* Clear horizontal border */
+  .ctfc-info::before {
+    content: "";
+    position: absolute;
+    background-color: #d6c08d;
+    width: 90%;
+    top: 55%;
+    height: 0px;
+    left: 80px;
+  }
+
+  /* Project layout */
+
+  #project .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .prj-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .prj-name,
+  .project-content {
+    border: 1px solid var(--secondary-color);
+    border-top: 0px solid var(--secondary-color);
+  }
+
+  .prj-summary {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+  }
+  .prj-year {
+    /* grid-row: 1 / span 2;
+    */
+    align-self: center;
+    justify-self: center;
+  }
+
+  /*footer layout */
+  #footer a span:last-child {
+    display: none;
+  }
+
+  /* project-charter */
+  .project-chapter-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--primary-color);
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .timeline {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .goals .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid,
+  .team .grid,
+  .timeline .grid,
+  .primary .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- Boootstrap 5.0 - Cái này làm hỏng hết định dạng bài của em nên xin phép comment lại ạ-->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <!-- link to icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <!-- Add text inside the banner image -->
+    <div id="banner">
+      <img src="images/banner1.jpg" alt="portrait" style="width: 100%" />
+      <div class="banner-content">
+        <h1>Nguyễn Ngọc Mai</h1>
+        <span>Java Developer</span>
+      </div>
+    </div>
+    <!-- Build navigation bar -->
+    <section id="nav-bar">
+      <nav class="container flex" id="nav-container">
+        <div>
+          <a href="#"> <i class="fa fa-user"> </i>Thông tin</a>
+        </div>
+        <div>
+          <a href="#"> <i class="fa fa-edit"> </i>Lý lịch</a>
+        </div>
+        <div class="profile-picture">
+          <img src="images/4.jpg" alt="profile picture" class="pf-picture" />
+        </div>
+        <div>
+          <a href="#"> <i class="fa fa-mortar-board"> </i>Chứng chỉ</a>
+        </div>
+        <div>
+          <a href="#"> <i class="fa fa-object-group"> </i>Dự Án</a>
+        </div>
+      </nav>
+    </section>
+    <!-- Buid personnal information layout -->
+    <section id="about" class="bg-grey">
+      <div class="container grid">
+        <div id="target">
+          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+          <p>
+            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+            <b>Fullstack Developer</b>, có thể vận dụng những kiến thức đã được
+            trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+            hoàn thành tốt nhất công việc được giao.
+          </p>
+        </div>
+        <div id="personal-info">
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <div class="container email-request">
+            <input type="email" class="email-guest" required />
+            <p class="request-text">Hãy nhập email để xác thực</p>
+            <input type="button" value="Submit" class="btns email-submit" />
+          </div>
+          <div class="container personal-info-details">
+            <ul class="mt-40-info">
+              <li><span>Giới tính</span> : Nữ</li>
+              <li><span>Ngày sinh</span> : 13/08/1991</li>
+              <li><span>Điện thoại</span> : (+84) 912346789</li>
+              <li><span>Email</span> : sinhvien@funix.edu.vn</li>
+              <li>
+                <span>Địa chỉ</span> : Số 30, ngách 213/21 Nguyễn Văn Cư, Long
+                Biên, Hà Nội
+              </li>
+              <li><span>Website</span> : https://abc.tech</li>
+            </ul>
+            <div class="contact-icons">
+              <div>
+                <a href="#" alt="twitter">
+                  <i class="fa fa-twitter"> </i>
+                </a>
+              </div>
+              <div>
+                <a href="#" alt="facebook">
+                  <i class="fa fa-facebook"> </i>
+                </a>
+              </div>
+              <div>
+                <a href="#" alt="google-plus">
+                  <i class="fa fa-google-plus"> </i>
+                </a>
+              </div>
+              <div>
+                <a href="#" alt="linkedin">
+                  <i class="fa fa-linkedin"> </i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Build job information layout -->
+    <section id="job-info">
+      <div class="container grid grid-3">
+        <!-- Experiences component-->
+        <div class="job-info-items">
+          <h1 class="name">Kinh nghiệm</h1>
+          <div>
+            <i class="fa fa-briefcase fa-3x"></i>
+          </div>
+          <span class="view-more">
+            <button class="view-less">VIEW MORE</button>
+          </span>
+          <div class="job-info-details">
+            <ul>
+              <div class="job-number">
+                <li class="job-name">Java Developer - Funix</li>
+                <div class="time">
+                  2022 - <span class="prj-year">Hiện tại</span>
+                </div>
+                <ul class="job-content">
+                  <li>Xây dựng CV online</li>
+                  <li>Java Developer</li>
+                </ul>
+              </div>
+              <div class="job-number">
+                <li class="job-name">Nhân viên bán hàng - Chợ Đồng Xuân</li>
+                <div class="time">2012-2022</div>
+                <ul class="job-content">
+                  <li>Kinh doanh sản phẩm</li>
+                  <li>Chăm sóc khách hàng</li>
+                </ul>
+              </div>
+            </ul>
+            <!-- <input
+              class="btn-yellow view-less"
+              type="button"
+              value="VIEW LESS"
+            /> -->
+          </div>
+        </div>
+        <!-- Educations component-->
+        <div class="job-info-items">
+          <h1 class="name">Học vấn</h1>
+          <div>
+            <i class="fa fa-pencil fa-3x"></i>
+          </div>
+          <span class="view-more">
+            <button class="view-less">VIEW MORE</button>
+          </span>
+          <div class="job-info-details">
+            <ul>
+              <div class="job-number">
+                <li class="job-name">Funix</li>
+                <div class="time">
+                  10/2022 - <span class="prj-year">Hiện tại</span>
+                </div>
+                <ul class="job-content">
+                  <li>
+                    Tốt nghiệp chứng chỉ doanh nghiệp nhánh Java Developer
+                  </li>
+                  <li>GPA: 9/10</li>
+                </ul>
+              </div>
+              <div class="job-number">
+                <li class="job-name">Tốt nghiệp Aprotrain Aptech</li>
+                <div class="time">2010-2012</div>
+                <ul class="job-content">
+                  <li>Chuyên ngành: Developer</li>
+                  <li>GPA: 2/4</li>
+                </ul>
+              </div>
+            </ul>
+            <!-- <input
+              class="btn-yellow view-less"
+              type="button"
+              value="VIEW LESS"
+            /> -->
+          </div>
+        </div>
+        <!-- Activities component-->
+        <div class="job-info-items">
+          <h1>Hoạt động</h1>
+          <div>
+            <i class="fa fa-cogs fa-3x"></i>
+          </div>
+          <span class="view-more">
+            <button class="view-less">VIEW MORE</button>
+          </span>
+          <div class="job-info-details">
+            <ul>
+              <div class="job-number">
+                <li class="job-name">Cậu lạc bộ âm nhạc</li>
+                <div class="time">2012-2013</div>
+                <ul>
+                  <li>Thành viên ban cán sự clb</li>
+                </ul>
+              </div>
+              <div class="job-number">
+                <li class="job-name">Sinh hoạt hè phường Nam Đồng</li>
+                <div class="time">2006-2009</div>
+                <ul>
+                  <li>Đạt giải nhì cấp Quận Đống Đa</li>
+                  <li>Chuyên mục: múa hát thiếu nhi</li>
+                </ul>
+              </div>
+            </ul>
+            <!-- <input
+              class="btn-yellow view-less"
+              type="button"
+              value="VIEW LESS"
+            /> -->
+          </div>
+        </div>
+        <!-- Interests component-->
+        <div class="job-info-items">
+          <h1>Sở thích</h1>
+          <div>
+            <i class="fa fa-puzzle-piece fa-3x"></i>
+          </div>
+          <span class="view-more">
+            <button class="view-less">VIEW MORE</button>
+          </span>
+          <div class="job-info-details hobbies">
+            <div class="grid grid-1">
+              <div class="flex">
+                <div class="hobbies-items">
+                  <div class="hobb-icons">
+                    <i class="fa fa-headphones"></i>
+                  </div>
+                  <div>Âm nhạc</div>
+                </div>
+                <div class="hobbies-items">
+                  <div class="hobb-icons">
+                    <i class="fa fa-gamepad"></i>
+                  </div>
+                  <div>Chơi game</div>
+                </div>
+                <div class="hobbies-items">
+                  <div class="hobb-icons">
+                    <i class="fa fa-globe"></i>
+                  </div>
+                  <div>Du lịch</div>
+                </div>
+                <div class="hobbies-items">
+                  <div class="hobb-icons">
+                    <i class="fa fa-cutlery"></i>
+                  </div>
+                  <div>Nấu ăn</div>
+                </div>
+              </div>
+              <div>
+                <!-- <input
+                  class="btn-yellow view-less"
+                  type="button"
+                  value="VIEW LESS"
+                /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Languages component-->
+        <div class="job-info-items">
+          <h1>Ngôn ngữ</h1>
+          <div>
+            <i class="fa fa-microphone fa-3x"></i>
+          </div>
+          <span class="view-more">
+            <button class="view-less">VIEW MORE</button>
+          </span>
+          <div class="job-info-details mt-30">
+            <div>Tiếng Anh - IELTS 4.5</div>
+            <div>
+              <span class="level-high"></span>
+              <span class="level-low"></span>
+              <span class="level-low"></span>
+            </div>
+            <!-- <input
+              class="btn-yellow view-less"
+              type="button"
+              value="VIEW LESS"
+            /> -->
+          </div>
+        </div>
+        <!-- Skills component-->
+        <div class="job-info-items">
+          <h1>Kỹ năng</h1>
+          <div>
+            <i class="fa fa-wrench fa-3x"></i>
+          </div>
+          <span class="view-more">
+            <button class="view-less">VIEW MORE</button>
+          </span>
+          <div class="job-info-details mt-30">
+            <div>
+              <div>HTML/CSS/JavaScript: Fundamental</div>
+              <div>
+                <span class="level-high"></span>
+                <span class="level-low"></span>
+                <span class="level-low"></span>
+              </div>
+            </div>
+            <div>
+              <div>Java: Intermediate</div>
+              <div>
+                <span class="level-high"></span>
+                <span class="level-high"></span>
+                <span class="level-low"></span>
+              </div>
+            </div>
+            <div>
+              <div>SQL and Giải thuật</div>
+              <div>
+                <span class="level-high"></span>
+                <span class="level-low"></span>
+                <span class="level-low"></span>
+              </div>
+            </div>
+            <div>
+              <div>WEP APP</div>
+              <div>
+                <span class="level-high"></span>
+                <span class="level-low"></span>
+                <span class="level-low"></span>
+              </div>
+            </div>
+            <!-- <input
+              class="btn-yellow view-less"
+              type="button"
+              value="VIEW LESS"
+            /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Buid certificates layout -->
+    <section id="certificate" class="bg-grey">
+      <div class="container grid">
+        <div class="item-name">
+          <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        </div>
+        <div class="ctfc-info">
+          <div class="ctfc-img">
+            <img src="images/Cert_PRF.png" />
+          </div>
+          <div class="ctfc-name">chứng chỉ lập trình web-funix</div>
+          <div class="ctfc-content">
+            <ul>
+              <li>Chứng chỉ thuộc chương trình CCDN</li>
+              <li>GPA: 9.0</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ctfc-info" id="ctfc-border-left">
+          <div class="ctfc-img">
+            <img src="images/Cert_DBI.png" />
+          </div>
+          <div class="ctfc-name">chứng chỉ Java Developer</div>
+          <div class="ctfc-content">
+            <ul>
+              <li>Chứng chỉ thuộc chương trình CCDN</li>
+              <li>GPA: 9.0</li>
+            </ul>
+          </div>
+        </div>
+        <div class="ctfc-info" id="ctfc-border-top">
+          <div class="ctfc-img">
+            <img src="images/Cert_WEB.png" />
+          </div>
+          <div class="ctfc-name">Chứng chỉ WEB APP</div>
+          <div class="ctfc-content">
+            <ul>
+              <li>Chứng chỉ thuộc chương trình CCDN</li>
+              <li>GPA: 9.0</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Build project layout -->
+    <section id="project">
+      <div class="container grid grid-3">
+        <h1 class="section-title">Dự án</h1>
+        <div class="project-content">
+          <a href="project-charter.html">
+            <div class="prj-img">
+              <img src="images/project_1.png" />
+            </div>
+            <div class="prj-name pl-10">cv cá nhân</div></a
+          >
+          <div class="prj-summary pl-10">
+            <span class="prj-year">2021</span>
+            <span><i class="fa fa-group"></i> FUNIX</span>
+            <span><i class="fa fa-lightbulb-o"></i> Developer</span>
+          </div>
+          <div class="prj-details pl-10">
+            <table>
+              <tr>
+                <th>Mô tả</th>
+                <td class="td-height">
+                  Trang web CV cá nhân online. Gồm các thông tin cá nhân cũng
+                  như kỹ năng nghề nghiệp.
+                </td>
+              </tr>
+              <tr>
+                <th>Nhiệm vụ</th>
+                <td>
+                  - Phát triển code - Review code - Tối ưu code -Xử lý lỗi
+                </td>
+              </tr>
+              <tr>
+                <th>Công nghệ</th>
+                <td>HTML, CSS</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="project-content">
+          <a href="project-charter.html">
+            <div class="prj-img">
+              <img src="images/project_2.png" />
+            </div>
+            <div class="prj-name pl-10">trang web quản lý thú cưng</div></a
+          >
+          <div class="prj-summary pl-10">
+            <span class="prj-year">2021</span>
+            <span><i class="fa fa-group"></i> FUNIX</span>
+            <span><i class="fa fa-lightbulb-o"></i> Developer</span>
+          </div>
+          <div class="prj-details pl-10">
+            <table>
+              <tr>
+                <th>Mô tả</th>
+                <td class="td-height">
+                  Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân
+                  nặng, giống, tình trạng tiêm chủng,... Bao gồm các chức năng
+                  thêm/ sửa/ xóa.
+                </td>
+              </tr>
+              <tr>
+                <th>Nhiệm vụ</th>
+                <td>
+                  - Phát triển code - Review code - Tối ưu code -Xử lý lỗi
+                </td>
+              </tr>
+              <tr>
+                <th>Công nghệ</th>
+                <td>HTML, CSS, JavaScript</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="project-content">
+          <a href="project-charter.html">
+            <div class="prj-img">
+              <img src="images/project_3.png" />
+            </div>
+            <div class="prj-name pl-10">trang web xem tin tức</div></a
+          >
+          <div class="prj-summary pl-10">
+            <span class="prj-year">2021</span>
+            <span><i class="fa fa-group"></i> FUNIX</span>
+            <span><i class="fa fa-lightbulb-o"></i> Developer</span>
+          </div>
+          <div class="prj-details pl-10">
+            <table>
+              <tr>
+                <th>Mô tả</th>
+                <td class="td-height">
+                  Trang web xem tin tức từ nhiều nguồn khác nhau, người dùng có
+                  thể tìm kiếm các tin tức dựa theo các từ khóa.
+                </td>
+              </tr>
+              <tr>
+                <th>Nhiệm vụ</th>
+                <td>
+                  - Phát triển code - Review code - Tối ưu code -Xử lý lỗi
+                </td>
+              </tr>
+              <tr>
+                <th>Công nghệ</th>
+                <td>HTML, CSS, JavaScript</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Build footer layout -->
+    <section id="footer" class="bg-grey">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+              <!-- <i class="fa fa-facebook-square fa-2x "></i> -->
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+              <span>Linkedin</span>
+            </a>
+          </li>
+          <li>
+            <a href=""
+              ><span class="fa-stack fa-lg">
+                <i class="fa fa-circle-thin fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-2x"></i>
+              </span>
+              <span>Github</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
