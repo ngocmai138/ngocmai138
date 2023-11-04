@@ -1,48 +1,13 @@
 
-```
-Assignment 02 Stater
-├─ css
-│  ├─ font.css
-│  └─ style.css
-├─ fonts
-│  ├─ OpenSans-Italic-webfont.eot
-│  ├─ OpenSans-Italic-webfont.svg
-│  ├─ OpenSans-Italic-webfont.ttf
-│  ├─ OpenSans-Italic-webfont.woff
-│  ├─ OpenSans-Light-webfont.eot
-│  ├─ OpenSans-Light-webfont.svg
-│  ├─ OpenSans-Light-webfont.ttf
-│  ├─ OpenSans-Light-webfont.woff
-│  ├─ OpenSans-LightItalic-webfont.eot
-│  ├─ OpenSans-LightItalic-webfont.svg
-│  ├─ OpenSans-LightItalic-webfont.ttf
-│  ├─ OpenSans-LightItalic-webfont.woff
-│  ├─ OpenSans-Regular-webfont.eot
-│  ├─ OpenSans-Regular-webfont.svg
-│  ├─ OpenSans-Regular-webfont.ttf
-│  ├─ OpenSans-Regular-webfont.woff
-│  ├─ OpenSans-Semibold-webfont.eot
-│  ├─ OpenSans-Semibold-webfont.svg
-│  ├─ OpenSans-Semibold-webfont.ttf
-│  ├─ OpenSans-Semibold-webfont.woff
-│  ├─ et-line.eot
-│  ├─ et-line.svg
-│  ├─ et-line.ttf
-│  ├─ et-line.woff
-│  ├─ fontello.eot
-│  ├─ fontello.svg
-│  ├─ fontello.ttf
-│  └─ fontello.woff
-├─ icon-list.html
-├─ images
-│  ├─ Cert_PRF.png
-│  ├─ Cert_WEB.png
-│  ├─ banner.jpg
-│  ├─ default-avatar.webp
-│  ├─ funix-icon.png
-│  ├─ project_1.png
-│  ├─ project_2.png
-│  └─ project_3.png
-└─ index.html
+## 🌐Socials
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ngocmai138) 
 
-```
+# 💻Tech Stack
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=flat&logo=microsoft%20sql%20server&logoColor=white)
+# 📊GitHub Stats :
+![](https://github-readme-stats.vercel.app/api?username=ngocmai138&theme=gruvbox&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=ngocmai138&theme=gruvbox&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ngocmai138&theme=gruvbox&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+---
+[![](https://visitcount.itsvg.in/api?id=ngocmai138&icon=0&color=4)](https://visitcount.itsvg.in)
